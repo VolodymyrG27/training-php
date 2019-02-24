@@ -11,19 +11,17 @@
     </style>
 </head>
 <body> 
-    <ul>
         <?php 
-            $animals = [
-                'CAT',
-                'DOG',
-                'PIG',
-                'CHICKEN',
-                'LION'
-            ];
-            foreach($animals as $animal){
-                echo "<li>$animal</li>";
-            }
+           $person {
+              'age' => 31,
+              'hair' => 'brown',
+              'carrer' => 'web development'
+           }
+
+           foreach ($person as $feature) :
+               echo " <li>$feature</li>";
+           endforeach;
         ?>
-    </ul>
+
 </body>
 </html>
